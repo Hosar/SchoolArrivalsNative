@@ -30,7 +30,7 @@ function App(): React.JSX.Element {
   };
 
   const sendEvent = () => {
-    console.log('Sending Event');
+    console.log('Sending Event ....');
     Analytics.trackEvent('New Event');
   };
   const isDarkMode = useColorScheme() === 'dark';
