@@ -25,6 +25,7 @@ import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 function App(): React.JSX.Element {
   const crashApp = () => {
+    console.log('My new change');
     Crashes.generateTestCrash();
     // throw new Error('Simple Error Test');
   };
